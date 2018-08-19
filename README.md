@@ -1,4 +1,4 @@
-# yaerp-front
+# vuejs-typescript-playground
 
 ## Project setup
 ```
