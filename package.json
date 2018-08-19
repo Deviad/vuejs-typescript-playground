@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "cross-env NODE_ENV=development vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "cross-env": "^5.2.0",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
